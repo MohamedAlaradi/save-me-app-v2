@@ -19,6 +19,7 @@ var locationManager: CLLocationManager?
         
         // Configure mapkit options
         // ask for access to the loaction service when app load
+        //hello
         locationManager = CLLocationManager()
         locationManager?.requestWhenInUseAuthorization()
         
